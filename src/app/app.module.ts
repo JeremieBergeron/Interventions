@@ -9,13 +9,16 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProblemeComponent } from './probleme/probleme.component';
 import { PrenomComponent } from './prenom/prenom.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PrenomComponent
+    PrenomComponent,
+    ProblemeComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
